@@ -1,5 +1,5 @@
 function square(num) {
-  num * 2;
+  return num ** 2;
 }
 
-square(5);
+console.log(square(5));

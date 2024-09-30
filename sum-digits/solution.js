@@ -1,8 +1,10 @@
 function sumDigits(num) {
-  let sum = 0;
-  while (num > 0) {
-    sum += num % 10;
-    num--;
+  const numArray = num.split("");
+  sum = 0;
+  for (number of numArray) {
+    sum = sum + Number(number);
   }
   return sum;
 }
+
+console.log(sumDigits("45"));
